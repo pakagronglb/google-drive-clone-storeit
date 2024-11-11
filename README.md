@@ -43,8 +43,8 @@ Before you begin, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/storeit.git
-cd storeit
+git clone https://github.com/pakagronglb/google-drive-clone-storeit.git
+cd google-drive-clone-storeit
 ```
 
 ### 2. Install Dependencies
@@ -52,10 +52,13 @@ cd storeit
 ### 3. Environment Setup
 Create a `.env.local` file in the root directory:
 ```env
-NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_APPWRITE_ENDPOINT=your_endpoint
-NEXT_PUBLIC_APPWRITE_STORAGE_ID=your_storage_id
-NEXT_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
+NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
+NEXT_PUBLIC_APPWRITE_PROJECT=""
+NEXT_PUBLIC_APPWRITE_DATABASE=""
+NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_BUCKET=""
+NEXT_APPWRITE_KEY=""
 ```
 
 ### 4. Appwrite Setup
