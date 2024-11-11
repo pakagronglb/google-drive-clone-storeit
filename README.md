@@ -1,4 +1,4 @@
-# StoreIt - Cloud Storage Solution
+# StoreIt - It's a cloud vault. YOUR cloud vault.
 
 ## 🌟 Overview
 StoreIt is a modern cloud storage solution built with Next.js 14, offering a secure and intuitive way to store and manage digital files. This project was created following the tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=lie0cr3wESQ).
